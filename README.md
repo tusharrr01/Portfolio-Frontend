@@ -4,7 +4,7 @@ Modern, responsive single‑page portfolio built with **React**, **Vite**, and *
 
 ### Preview
 
-![Hero section](../public/portfolio.png)
+![Hero section](./public/portfolio.png)
 
 
 ---
