@@ -8,7 +8,7 @@ export const projects = [
     githubFrontend: 'https://github.com/tusharrr01/PotatoPress-React',
     githubBackend: 'https://github.com/tusharrr01/PotatoPress-backend',
     demo: 'https://potato-press-react.vercel.app/',
-    image: '../../public/Projects/Potato_Press.jpg'
+    image: '/Projects/Potato_Press.jpg'
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const projects = [
     tech: ['HTML', 'CSS'],
     github: 'https://github.com/tusharrr01/TextUtils-React',
     demo: 'https://textutils-react-tawny.vercel.app/', 
-    image: '/../../public/Projects_img/TextUtils.png'
+    image: '/Projects/TextUtils.png'
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ export const projects = [
     tech: ['Python'],
     github: 'https://github.com/tusharrr01/KeyKhoji', 
     demo: null, 
-    image: '/../../public/Projects_img/KeyKhoji.png'
+    image: '/Projects/KeyKhoji.png'
   },
   
   {
@@ -36,7 +36,7 @@ export const projects = [
     tech: ['HTML', 'CSS'],
     github: 'https://github.com/tusharrr01/Birthday-Wishes-',
     demo: 'https://birthday-wishes-rouge-theta.vercel.app/', 
-    image: '/../../public/Projects_img/birthday.png'
+    image: '/Projects/Birthday.png'
   },
   {
     id: 5,
@@ -64,6 +64,6 @@ export const projects = [
     tech: ['HTML', 'CSS'],
     github: 'https://github.com/tusharrr01/Practice-Landing-Page',
     demo: null,
-    image: '/../../public/Projects_img/Landing_page.png'
+    image: '/Projects/Landing_page.png'
   }
 ];
