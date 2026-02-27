@@ -58,7 +58,7 @@ export const Hero = () => {
         </div>
 
         {/* Right: visual / hero card */}
-        <div className="relative flex items-center justify-center">
+        <div className="relative hidden lg:flex items-center justify-center">
           <div className="absolute inset-0 -z-10">
             <div className="absolute right-4 top-6 h-32 w-32 rounded-full border border-accent/40 bg-accent/10" />
             <div className="absolute left-0 bottom-4 h-40 w-40 rounded-[2.5rem] border border-primary/30 bg-primary/10" />

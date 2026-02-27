@@ -27,7 +27,7 @@ export const About = () => {
 
 
           <div className="grid gap-8 md:grid-cols-[1.3fr,1fr]">
-            <div className="rounded-2xl border border-border bg-card/80 px-8 pt-6  max-w-xl">
+            <div className="rounded-2xl border border-border bg-card/80 px-8 pt-6 pb-2 max-w-xl">
               <p className="text-xs font-semibold tracking-[0.22em] uppercase text-text-muted mb-2">
                 Internship
               </p>
@@ -41,7 +41,7 @@ export const About = () => {
                 <li>• Practiced state management with React hooks.</li>
                 <li>• it fetches the news from the newsapi.org and categories the news into different categories.</li>
               </ul>
-              <div className="mt-8 flex gap-4 justify-start">
+              <div className="mt-8  flex gap-4 justify-start">
 
               <a
                 onClick={() => window.open('/Documents/CODYNET_Certification.pdf', '_blank')}
