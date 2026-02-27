@@ -8,7 +8,7 @@ export const projects = [
     githubFrontend: 'https://github.com/tusharrr01/PotatoPress-React',
     githubBackend: 'https://github.com/tusharrr01/PotatoPress-backend',
     demo: 'https://potato-press-react.vercel.app/',
-    image: '/../../public/Projects_img/Potato_Press.jpg'
+    image: '../../public/Projects/Potato_Press.jpg'
   },
   {
     id: 2,
