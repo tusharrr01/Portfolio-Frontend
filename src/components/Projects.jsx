@@ -73,6 +73,14 @@ export const Projects = () => {
               onClick={(e) => e.stopPropagation()}
             >
 
+              <button
+                onClick={() => setSelectedProject(null)}
+                className="absolute top-4 right-4 z-10 inline-flex sm:hidden h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors"
+                aria-label="Close modal"
+              >
+                <X className="h-6 w-6" />
+              </button>
+
               <div className="relative h-60 overflow-hidden ">
                 <img
                   src={
