@@ -78,9 +78,9 @@ export const Contact = () => {
     setMessage('');
 
     try {
-      // Create axios instance with increased timeout (60s)
+      // Create axios instance with no timeout for slow deployments
       const api = axios.create({
-        timeout: 60000, // 60 seconds timeout
+        timeout: 0, // No timeout - allows slow free deployments to respond
         headers: {
           'Content-Type': 'application/json',
         }
