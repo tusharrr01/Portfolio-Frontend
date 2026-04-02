@@ -197,7 +197,7 @@ export const Contact = () => {
                     href="tel:+919537064058"
                     className="text-text-primary hover:text-accent font-semibold"
                   >
-                    +91 95370 64058
+                    +91 ***** *****
                   </a>
                 </div>
               </div>
